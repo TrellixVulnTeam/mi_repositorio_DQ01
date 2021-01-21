@@ -1,0 +1,28 @@
+ .home_menu{
+    background-color: $naranja;
+    border-radius: 5px;
+     a {
+      text-decoration: none;
+      color: black; }
+     
+     }
+ .contacto_nosotros{
+    background-color: $negro;
+    border-radius: 5px;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+// bucle para iconos con link redes sociales
+
+@each $red_social in facebook, instagram, whatsapp {
+    .#{$red_social}-icon { 
+          background-image: url('../image/#{$red_social}.png');
+          background-repeat: no-repeat;
+          height: 32px;
+     }
+ } 
+ 

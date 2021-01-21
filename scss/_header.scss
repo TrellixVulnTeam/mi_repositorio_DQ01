@@ -1,0 +1,20 @@
+nav{
+
+    border-radius: 5px;
+
+     a {
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            color: $blanco;
+            cursor: pointer; }
+     a:hover {
+            color: $naranja;
+            transition: 300ms linear;
+            text-decoration: none; }
+    .seccion_activa {
+                color: $naranja; }
+    .marca{
+        color: $naranja;
+        text-transform: uppercase;
+    }
+}

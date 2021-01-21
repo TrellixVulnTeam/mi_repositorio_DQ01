@@ -1,0 +1,102 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Open Sans', sans-serif; }
+
+.contenedor {
+  margin: 0%;
+  padding: 0%; }
+
+h5 {
+  font-family: 'Open Sans', sans-serif; }
+
+nav {
+  border-radius: 5px; }
+  nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #F7F7F7;
+    cursor: pointer; }
+  nav a:hover {
+    color: orange;
+    transition: 300ms linear;
+    text-decoration: none; }
+  nav .seccion_activa {
+    color: orange; }
+  nav .marca {
+    color: orange;
+    text-transform: uppercase; }
+
+.home_menu {
+  background-color: orange;
+  border-radius: 5px; }
+  .home_menu a {
+    text-decoration: none;
+    color: black; }
+
+.contacto_nosotros {
+  background-color: #2D3032;
+  border-radius: 5px; }
+  .contacto_nosotros a {
+    text-decoration: none;
+    color: black; }
+
+.facebook-icon {
+  background-image: url("../image/facebook.png");
+  background-repeat: no-repeat;
+  height: 32px; }
+
+.instagram-icon {
+  background-image: url("../image/instagram.png");
+  background-repeat: no-repeat;
+  height: 32px; }
+
+.whatsapp-icon {
+  background-image: url("../image/whatsapp.png");
+  background-repeat: no-repeat;
+  height: 32px; }
+
+.fondo {
+  background-color: #2D3032; }
+
+main {
+  background-color: orange; }
+
+.typo_nosotros {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: #2D3032; }
+
+.us {
+  padding-left: 8em;
+  padding-right: 8em; }
+
+button .boton {
+  border-style: dotted;
+  border-color: black;
+  border-width: medium;
+  border-radius: 15px; }
+
+.typo_contacto {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: #2D3032; }
+
+.typo_menu {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: #F7F7F7; }
+
+button .order {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: orange; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+.nombre {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic; }
