@@ -10,6 +10,9 @@
 h5 {
   font-family: 'Open Sans', sans-serif; }
 
+.contenido {
+  padding-top: 150px; }
+
 nav {
   border-radius: 5px; }
   nav a {
@@ -56,8 +59,17 @@ nav {
   background-repeat: no-repeat;
   height: 32px; }
 
+footer {
+  padding-top: 20px; }
+
 .fondo {
   background-color: #2D3032; }
+
+.contenido {
+  padding-top: 122px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px; }
 
 main {
   background-color: orange; }
@@ -82,6 +94,11 @@ button .boton {
   text-align: center;
   color: #2D3032; }
 
+.contenido_contacto {
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
 .typo_menu {
   font-family: 'Kaushan Script', cursive;
   text-align: center;
@@ -100,3 +117,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-style: italic; }
+
+.contenido_menu {
+  padding-top: 60px; }

@@ -21,32 +21,41 @@
 <body>
 <div class="container-fluid fondo contenedor">
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top d-flex justify-content-center">
-  <a class="navbar-brand" href="index.html"><h2 class="marca">Under House</h2></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="texto collapse navbar-collapse" id="collapsibleNavbar " >
-    <ul class="navbar-nav ml-auto">
-		<li class="nav-item dropdown ">
-			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menú</a>
-			  <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+		<!-- Brand -->
+		<a class="navbar-brand" href="index.html"><h1 class="marca">Under house</h1></a>
+	  
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav ml-auto">
+			<!-- Dropdown -->
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				 Menu
+				</a>
+				<div class="dropdown-menu">
 				  <a class="dropdown-item" href="pages/menu.html">Combos</a>
-				  <a class="dropdown-item" href="pages/menu.html">Carta completa</a>
-			  </div>
-		  </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pages/contacto.html">Contacto</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<br>
+				  <a class="dropdown-item" href="pages/menu.html">Carta</a>
+				  
+				</div>
+			  </li>
+			<li class="nav-item">
+			  <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
 
-<div class="container ">
+
+<div class="contenido">
 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 		  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -86,10 +95,10 @@
 		</a>
 	  </div>
 </div>
-<br>
+
 
 <footer class="home_menu">
-	<br>
+	
 	<ul class="nav justify-content-center">
 		<li class="nav-item">
 		  <a class="nav-link facebook-icon" href="#"></a>
