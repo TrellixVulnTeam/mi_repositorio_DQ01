@@ -1,20 +1,16 @@
 nav{
-
-    border-radius: 5px;
-
+    border-radius: 0px;
      a {
             text-decoration: none;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: $blanco;
             cursor: pointer; }
      a:hover {
-            color: $naranja;
+            color: $amarillo ;
             transition: 300ms linear;
-            text-decoration: none; }
+            text-decoration: none; 
+        }
     .seccion_activa {
-                color: $naranja; }
-    .marca{
-        color: $naranja;
-        text-transform: uppercase;
-    }
+                color: $amarillo; }
+    
 }

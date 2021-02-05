@@ -16,14 +16,16 @@
 	 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 	 <link rel="preconnect" href="https://fonts.gstatic.com">
 	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	 <!-- animacion -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
 <body>
 <div class="container-fluid fondo contenedor">
 
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #070707">
 		<!-- Brand -->
-		<a class="navbar-brand" href="index.html"><h1 class="marca">Under house</h1></a>
+		<a class="navbar-brand" href="index.html"><img class="animate__animated animate__flip" src="image/logo.png"  alt="under house"></a>
 	  
 		<!-- Toggler/collapsibe Button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -39,13 +41,13 @@
 				 Menu
 				</a>
 				<div class="dropdown-menu">
-				  <a class="dropdown-item" href="pages/menu.html">Combos</a>
-				  <a class="dropdown-item" href="pages/menu.html">Carta</a>
+				  <a class="dropdown-item" href="pages/menu.html">Menu</a>
+				  <a class="dropdown-item" href="pages/toppings.html">Toppings</a>
 				  
 				</div>
 			  </li>
 			<li class="nav-item">
-			  <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+			  <a class="nav-link seccion_activa" href="pages/nosotros.html">Nosotros</a>
 			</li>
 			<li class="nav-item">
 			  <a class="nav-link" href="pages/contacto.html">Contacto</a>
@@ -64,24 +66,24 @@
 		</ol>
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
-			<img src="image/cuadruple.jpg" class="d-block w-100" alt="...">
+			<img src="image/cuadruple.jpg" class="d-block w-100" alt="hamburguesa cuadruple">
 			<div class="carousel-caption d-none d-md-block">
-			  <h5>First slide label</h5>
-			  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			  <h5>Cuadruple</h5>
+			  <p>No te la podes perder!!</p>
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img src="image/doble.jpg" class="d-block w-100" alt="...">
+			<img src="image/doble.jpg" class="d-block w-100" alt="hamburguesa completa">
 			<div class="carousel-caption d-none d-md-block">
-			  <h5>Second slide label</h5>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			  <h5>Doble</h5>
+			  <p>La clasica hamburguesa completa </p>
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img src="image/triplepyc.jpg" class="d-block w-100" alt="...">
+			<img src="image/triplepyc.jpg" class="d-block w-100" alt="mega hamburguesa triple">
 			<div class="carousel-caption d-none d-md-block">
-			  <h5>Third slide label</h5>
-			  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+			  <h5>Triple</h5>
+			  <p>hamburguesa de tres pisos con panceta y cheddar!!</p>
 			</div>
 		  </div>
 		</div>
@@ -93,35 +95,38 @@
 		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Next</span>
 		</a>
-	  </div>
+	  </div> 
+	  <div class="franja">
+		<h2>Segui el sabor!</h2>
+		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+			<a class="nav-link facebook-icon" href="#"></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link instagram-icon" href="https://www.instagram.com/underhouse.fsa/"></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link whatsapp-icon" href="#"></a>
+		  </li>
+		</ul>
+		<br>
+	</div>
 </div>
 
-
-<footer class="home_menu">
-	
-	<ul class="nav justify-content-center">
-		<li class="nav-item">
-		  <a class="nav-link facebook-icon" href="#"></a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link instagram-icon" href="#"></a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link whatsapp-icon" href="#"></a>
-		</li>
-	  </ul>
-	 
-	<ul class="nav justify-content-center">
-		<li class="nav-item">
-		  <a class="nav-link" href="#">@2020UnderHouse</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="#">Terminos y condiciones</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="#">Politicas de privacidad</a>
-		</li>
-  </ul>
+<footer class="footer">
+   <h2 class="completefooter">Sin hamburguesas no hay paraiso</h2>
+   
+  <ul class="nav justify-content-center">
+	  <li class="nav-item">
+		<a class="nav-link" href="#">@2020UnderHouse</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="#">Terminos y condiciones</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="#">Politicas de privacidad</a>
+	  </li>
+</ul>
 </footer>
 </div>
 

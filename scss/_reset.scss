@@ -1,17 +1,23 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .contenedor{
     margin: 0%;
     padding: 0%;
 }
-
+/* tipografia */
 h5{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 
 }
+h2{
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+  }
 .contenido{
     padding-top: 150px;
 }

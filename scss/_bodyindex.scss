@@ -1,10 +1,69 @@
-.fondo{
-   background-color: $negro;
-}
-.contenido{
-   padding-top: 122px;
-   padding-right: 40px;
-   padding-left: 40px;
-   padding-bottom: 40px;
 
+@media only screen and (min-width:360px){
+   .fondo{
+      background-color: $negro;
+   }
+   .carrusel{
+     height: 300px;
+   }
+   .contenido{
+     height: 100%;
+     padding-top: 107px;
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+   }
+   .franja{
+     padding-top: 25px;
+     background-color: $amarillo;
+    
+     color: $blanco;}
 }
+
+@media only screen and (min-width:768px){
+   .fondo{
+      background-color: $negro;
+   }
+   .carrusel{
+     height: 550px;
+   }
+   .contenido{
+     height: 100%;
+     width: 100%;
+     padding-top: 107px;
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+   }
+   .franja{
+     padding-top: 25px;
+     background-color: $amarillo;
+     color: $blanco;
+   }
+}
+
+@media only screen and (min-width:1200px){
+   .fondo{
+      background-color: $negro;
+   }
+
+   .contenido {
+     display: block;
+     
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 0px; } 
+   
+    
+     .completefooter{
+       padding-bottom: 20px;
+      text-align: center;
+      color: $blanco;
+      text-decoration: solid;
+     }
+     .franja{
+       padding-top: 25px;
+       background-color: $amarillo;
+       color: $blanco;
+     }
+   }

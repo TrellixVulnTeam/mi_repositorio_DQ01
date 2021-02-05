@@ -1,78 +1,148 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .contenedor {
   margin: 0%;
   padding: 0%; }
 
+/* tipografia */
 h5 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+h2 {
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center; }
 
 .contenido {
   padding-top: 150px; }
 
 nav {
-  border-radius: 5px; }
+  border-radius: 0px; }
   nav a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
     cursor: pointer; }
   nav a:hover {
-    color: orange;
+    color: #F2CB05;
     transition: 300ms linear;
     text-decoration: none; }
   nav .seccion_activa {
-    color: orange; }
-  nav .marca {
-    color: orange;
-    text-transform: uppercase; }
+    color: #F2CB05; }
 
-.home_menu {
-  background-color: orange;
-  border-radius: 5px; }
-  .home_menu a {
+@media only screen and (min-width: 360px) {
+  .footer {
+    background-color: black;
+    height: 100%; }
+  .footer a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: black; }
+    color: grey; }
+  .completefooter {
+    padding-bottom: 20px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: solid; } }
 
-.contacto_nosotros {
-  background-color: #2D3032;
-  border-radius: 5px; }
-  .contacto_nosotros a {
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 20px;
+    background-color: black;
+    height: 220px; }
+  .footer a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: black; }
+    color: grey; }
+  .completefooter {
+    padding-bottom: 20px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: solid; } }
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    background-color: black;
+    height: 100%; }
+  .footer a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: grey; } }
 
 .facebook-icon {
-  background-image: url("../image/facebook.png");
+  background-image: url("../image/logo-facebook.svg");
   background-repeat: no-repeat;
   height: 32px; }
 
 .instagram-icon {
-  background-image: url("../image/instagram.png");
+  background-image: url("../image/logo-instagram.svg");
   background-repeat: no-repeat;
   height: 32px; }
 
 .whatsapp-icon {
-  background-image: url("../image/whatsapp.png");
+  background-image: url("../image/logo-whatsapp.svg");
   background-repeat: no-repeat;
   height: 32px; }
 
 footer {
   padding-top: 20px; }
 
-.fondo {
-  background-color: #2D3032; }
+@media only screen and (min-width: 360px) {
+  .fondo {
+    background-color: #2D3032; }
+  .carrusel {
+    height: 300px; }
+  .contenido {
+    height: 100%;
+    padding-top: 107px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px; }
+  .franja {
+    padding-top: 25px;
+    background-color: #F2CB05;
+    color: whitesmoke; } }
 
-.contenido {
-  padding-top: 122px;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-bottom: 40px; }
+@media only screen and (min-width: 768px) {
+  .fondo {
+    background-color: #2D3032; }
+  .carrusel {
+    height: 550px; }
+  .contenido {
+    height: 100%;
+    width: 100%;
+    padding-top: 107px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px; }
+  .franja {
+    padding-top: 25px;
+    background-color: #F2CB05;
+    color: whitesmoke; } }
+
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    background-color: #2D3032; }
+  .contenido {
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px; }
+  .completefooter {
+    padding-bottom: 20px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: solid; }
+  .franja {
+    padding-top: 25px;
+    background-color: #F2CB05;
+    color: whitesmoke; } }
 
 main {
-  background-color: orange; }
+  background-color: whitesmoke; }
 
 .typo_nosotros {
   font-family: 'Kaushan Script', cursive;
@@ -95,6 +165,7 @@ button .boton {
   color: #2D3032; }
 
 .contenido_contacto {
+  background-color: whitesmoke;
   padding-top: 80px;
   padding-left: 40px;
   padding-right: 40px; }
@@ -102,19 +173,19 @@ button .boton {
 .typo_menu {
   font-family: 'Kaushan Script', cursive;
   text-align: center;
-  color: #F7F7F7; }
+  color: whitesmoke; }
 
 button .order {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   background-color: orange; }
 
 p {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .nombre {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-style: italic; }
 

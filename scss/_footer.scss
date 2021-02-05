@@ -1,26 +1,59 @@
- .home_menu{
-    background-color: $naranja;
-    border-radius: 5px;
-     a {
-      text-decoration: none;
-      color: black; }
-     
-     }
- .contacto_nosotros{
-    background-color: $negro;
-    border-radius: 5px;
-    
-    a{
+@media only screen and (min-width:360px){
+    .footer {
+      background-color: black;
+      height: 100%; }
+      .footer a {
+        font-family: 'Roboto', sans-serif;
         text-decoration: none;
-        color: black;
+        color: grey; }
+  
+        .completefooter{
+        padding-bottom: 20px;
+         text-align: center;
+         color: $blanco;
+         text-decoration: solid;
+        }
+  
+  
+  }
+
+  @media only screen and (min-width:768px){
+    .footer {
+      padding-top: 20px;
+      background-color: black;
+      height:220px;
+     }
+      .footer a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: grey; }
+     .completefooter{
+       padding-bottom: 20px;
+      text-align: center;
+      color: $blanco;
+      text-decoration: solid;
+     }
+  
+  
+  
+  }
+
+  @media only screen and (min-width:1200px){
+      .footer {
+        background-color: black;
+        height: 100%;
+       }
+        .footer a {
+          font-family: 'Roboto', sans-serif;
+          text-decoration: none;
+          color: grey; }
     }
-}
 
 // bucle para iconos con link redes sociales
 
 @each $red_social in facebook, instagram, whatsapp {
     .#{$red_social}-icon { 
-          background-image: url('../image/#{$red_social}.png');
+          background-image: url('../image/logo-#{$red_social}.svg');
           background-repeat: no-repeat;
           height: 32px;
      }
